@@ -1,9 +1,16 @@
 {
   "name": "helloWorld",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "web.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+  "test": "jasmine-node spec"
   }
 }
