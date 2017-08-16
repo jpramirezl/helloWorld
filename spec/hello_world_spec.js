@@ -14,9 +14,18 @@ describe("Hello World Server", function() {
     it("returns Hello World", function(done) {
       request.get(base_url, function(error, response, body) {
         expect(body).toBe("Hello World");
-          helloWorld.closeServer();
         done();
       });
     });
+
+    it("returns Name page", function(done) {
+      request.get(base_url + "name", function(error, response, body) {
+        expect(body).toBe("Name page");
+        helloWorld.closeServer();
+        done();
+      });
+    });
+
+
   });
 });

@@ -6,6 +6,10 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
+app.get('/name', function (req, res) {
+  res.send('Name page')
+})
+
 var port = process.env.PORT || 3000;
 
 var server = app.listen(port, function () {
