@@ -1,5 +1,5 @@
 var request = require("request");
-var helloWorld = require("../web.js")
+var helloWorld = require("../src/web.js")
 var base_url = "http://localhost:3000/"
 
 describe("Hello World Server", function() {
