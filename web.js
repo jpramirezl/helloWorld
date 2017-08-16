@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/name', function (req, res) {
-  res.send('Name page')
+  res.send('mis amigos')
 })
 
 var port = process.env.PORT || 3000;
