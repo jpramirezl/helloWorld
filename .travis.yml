@@ -5,6 +5,8 @@ node_js:
 addons:
   sonarcloud:
     organization: jpramirezl-github
+    branches:
+      feature1
     token:
       secure: "E33i1aPzs/yw4LC+1ybgRSP2DSp4EkAaHmFyQc2UOAbnHUBGR6GPgzGaE/bXz1PJshIVa7zrPG/Y3+qjrE6TxlHl6INsGcxZzbLQ/Zw6Hw0QXmWKicD4Ba41b9jm8jXOxkW/H/zGb71QpAFdpTbjTvKSVP9rUBXVz1pjI2sk29yDSpBVLh+hFikeCvc+ujDOAzrxQNogxbU0rjdq0hTyU/Y4MbWrUZqYR308xg3rnsExUj7QFE8c0G4wHUYZ5YSf9jm5pU4kbSlGt9lsB7MUvm0+7WCoLBFpZvAQqg+dM9Vb9KQFF9slhyil49hyVCL5tXVDCWb9HVFzGENCr8tEeO3UFIRAsvp7J0yv2wDEsHPRPuICEPXEbhTTxym0U9UOeE4BD/mJ+SXFtN1/D/U1p2HK/SGmqW0oIcPQJB5B1SGlpxuLMy8eDOOfVuhOeRgeQ4ZacsjrdanvbNm+C6w00LZ0W13/jpx6OB/0PieUkwKBidD8IazfzdoXFfoMTm0xlLir+t2j010vRd/f5FCFrWWoHj0bYQfVjnWctqovIbgmRd8658cvj06AzqRBl9JCovn9xKkOuSy66FnAbGYg+EUea/UC2pZx7EGpIfm4GwiPaWsacgrYaK2N4vcz/xGBisTNRY6cSSgAAJCZGH6/YvOt8104AzFElxG83R0+PDo="
 script:
