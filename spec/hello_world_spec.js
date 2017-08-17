@@ -1,5 +1,5 @@
 var request = require("request");
-var helloWorld = require("../web.js")
+var helloWorld = require("../src/web.js")
 var base_url = "http://localhost:3000/"
 
 describe("Hello World Server", function() {
@@ -20,7 +20,7 @@ describe("Hello World Server", function() {
 
     it("returns Name page", function(done) {
       request.get(base_url + "name", function(error, response, body) {
-        expect(body).toBe("mis amigos");
+        expect(body).toBe("mis amigas");
         helloWorld.closeServer();
         done();
       });
