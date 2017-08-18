@@ -62,11 +62,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [node](https://nodejs.org/) - The web framework used
+* [node](https://nodejs.org/) - Dependency Management
 * [yarn](https://yarnpkg.com//) - Dependency Management
-* [express](https://expressjs.com/) - Used to generate RSS Feeds
-* [jasmine](https://jasmine.github.io/) - Used to generate RSS Feeds
-* [istanbul](https://github.com/gotwarlost/istanbul) - 
+* [express](https://expressjs.com/) - to generate HTML fast
+* [jasmine](https://jasmine.github.io/) - Used to test the app
+* [istanbul](https://github.com/gotwarlost/istanbul) - Used to generate the lcov file
 
 ## Authors
 
