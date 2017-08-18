@@ -62,9 +62,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [node](https://nodejs.org/) - The web framework used
+* [yarn](https://yarnpkg.com//) - Dependency Management
+* [express](https://expressjs.com/) - Used to generate RSS Feeds
+* [jasmine](https://jasmine.github.io/) - Used to generate RSS Feeds
+* [istanbul](https://github.com/gotwarlost/istanbul) - 
 
 ## Authors
 
@@ -73,7 +75,7 @@ Senior Software Engineer
 Workiva
 Ames, Iowa, USA
 jpramirezl@gmail.com
-* **Juan Pablo Ramirez** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Juan Pablo Ramirez** - *Initial work* - [helloWorld](https://github.com/jpramirezl/helloWorld)
 
 
 ## License
