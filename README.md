@@ -1,21 +1,22 @@
 
 # helloWorld
 
-Proyecto prueba de concepto: DevOps, Continuous Delivery, Continuous Integration
+Proof of concept: DevOps, Continuous Delivery, Continuous Integration
 
-## Objetivo
+## Getting Started
 
 Estas instrucciones ayudaran a configurar el proyecto para usar las herramientas cloud
 para realizar la prueba de concepto
 
 ### Prerequisites
 
-En la maquina local:
-instalar node
-instalar yarn
-
+To run it locally:
+install node
+install yarn
+run 
+execute:
 ```
-Give examples
+yarn install
 ```
 
 ### Installing
@@ -38,22 +39,10 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+run the next command
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm test
 ```
 
 ## Deployment
