@@ -5,8 +5,7 @@ Proof of concept: DevOps, Continuous Delivery, Continuous Integration
 
 ## Getting Started
 
-Estas instrucciones ayudaran a configurar el proyecto para usar las herramientas cloud
-para realizar la prueba de concepto
+instructions to connect all of this tools please see heruku docs
 
 ### Prerequisites
 
@@ -21,21 +20,11 @@ yarn install
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
+set up heruku using your repo
+set up travis
+set up sonarcloud
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
@@ -47,7 +36,7 @@ npm test
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+see heroku docs
 
 ## Built With
 
