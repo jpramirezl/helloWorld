@@ -64,9 +64,12 @@ Add additional notes about how to deploy this on a live system
 
 * [node](https://nodejs.org/) - Dependency Management
 * [yarn](https://yarnpkg.com//) - Dependency Management
-* [express](https://expressjs.com/) - to generate HTML fast
+* [express](https://expressjs.com/) - web framework for node
 * [jasmine](https://jasmine.github.io/) - Used to test the app
-* [istanbul](https://github.com/gotwarlost/istanbul) - Used to generate the lcov file
+* [istanbul](https://github.com/gotwarlost/istanbul) - Used to generate the lcov file after tests
+* [travis](https://travis-ci.org/) - Used to run tests - continuous integration
+* [heroku](https://www.heroku.com/) - Used to deploy - continuous delivery
+* [sonarcloud](https://sonarcloud.io/) - Used to run metrics over the code
 
 ## Authors
 
