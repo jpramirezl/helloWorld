@@ -3,7 +3,7 @@ const app = express()
 var exports = module.exports = {};
 
 app.get('/', function (req, res) {
-  res.send('Hello World')
+  res.send('Hola Mundo')
 })
 
 app.get('/name', function (req, res) {
